@@ -1,0 +1,18 @@
+[package]
+name = "spotify-neovim"
+version = "0.1.0"
+authors = ["Ian Fabs <ianfabs@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+neovim-lib = "0.6.1"
+reqwest = "0.9.17"
+soup = "0.4.1"
+strum = "0.14"
+serde_json = "1.0"
+strum_macros = "0.14"
+serde = { version = "1.0", features = ["derive"] }
+open = "1.2"
+url = "1.7"
+dotenv = "0.13"
+rand = "0.6"
